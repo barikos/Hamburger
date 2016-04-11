@@ -1,0 +1,28 @@
+<LinearLayout
+    android:id="@+id/lay_fragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.minutes111.hamburger.ui.adapter.sss">
+
+    <ImageView
+        android:id="@+id/img_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        tools:src="@drawable/img_fest_1"/>
+
+    <TextView
+        android:id="@+id/txt_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:text="ADLJVKDHABV"/>
+
+</LinearLayout>
